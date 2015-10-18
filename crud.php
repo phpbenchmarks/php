@@ -1,15 +1,17 @@
 <?php
-$host = '127.0.0.1';
-$user = 'root';
-$password = null;
-$database = 'php-benchmarks';
-
+/**
+ * @param string $message
+ */
 function error_500($message)
 {
     header('HTTP/1.1 500 Internal Server Error');
     exit($message);
 }
 
+/**
+ * @param mysqli $mysqli
+ * @param int $line
+ */
 function show_mysqli_error(mysqli $mysqli, $line)
 {
     if ($mysqli->error) {
