@@ -1,4 +1,6 @@
 <?php
+require('config.php');
+
 /**
  * @param string $message
  */
