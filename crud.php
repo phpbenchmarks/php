@@ -28,26 +28,26 @@ if ($mysqli->connect_error) {
 
 // create
 $mysqli->query("
-    INSERT INTO bench_crud (firstName, lastName, email, message)
+    INSERT INTO crud (firstName, lastName, email, message)
     VALUES ('Steevan', 'BARBOYON', 'steevan.barboyon@gmail.com', 'php-benchmarks, the first php benchmarks site !')
 ");
 show_mysqli_error($mysqli, __LINE__);
 $id = $mysqli->insert_id;
 
 // read
-$mysqli->query('SELECT * FROM bench_crud WHERE id = ' . $id);
+$mysqli->query('SELECT * FROM crud WHERE id = ' . $id);
 show_mysqli_error($mysqli, __LINE__);
 
 // update
 $mysqli->query("
-    UPDATE bench_crud
+    UPDATE crud
     SET firstName = 'InfoDroid', lastName = 'InfoDroid', email = 'contact@info-droid.fr', message = 'php-benchmarks, the ultimate php benchmarks site !'
     WHERE id = " . $id
 );
 show_mysqli_error($mysqli, __LINE__);
 
 // delete
-$mysqli->query('DELETE FROM bench_crud WHERE id = ' . $id);
+$mysqli->query('DELETE FROM crud WHERE id = ' . $id);
 show_mysqli_error($mysqli, __LINE__);
 
 $mysqli->close();
