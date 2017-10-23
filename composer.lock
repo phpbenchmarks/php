@@ -1,0 +1,54 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "6fe7d9e6953756316a40ccef41569457",
+    "packages": [
+        {
+            "name": "phpbenchmarks/rest-benchmark-type",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpbenchmarks/rest-benchmark-type.git",
+                "reference": "5b650a00bd89a56d1130618eda7eadeb88ed6ed3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpbenchmarks/rest-benchmark-type/zipball/5b650a00bd89a56d1130618eda7eadeb88ed6ed3",
+                "reference": "5b650a00bd89a56d1130618eda7eadeb88ed6ed3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "PhpBenchmarksRestType\\": ""
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "support": {
+                "source": "https://github.com/phpbenchmarks/rest-benchmark-type/tree/master",
+                "issues": "https://github.com/phpbenchmarks/rest-benchmark-type/issues"
+            },
+            "time": "2017-10-14T19:48:47+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "phpbenchmarks/rest-benchmark-type": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.1"
+    },
+    "platform-dev": []
+}
