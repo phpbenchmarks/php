@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 use Php71Benchmark\Translation\TranslationService;
-use PhpBenchmarksRestType\{
+use PhpBenchmarksRestData\{
     Comment,
     CommentType,
     Service,

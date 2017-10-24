@@ -9,12 +9,6 @@
     },
     "require": {
         "php": ">=7.1",
-        "phpbenchmarks/rest-benchmark-type": "dev-master"
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/phpbenchmarks/rest-benchmark-type.git"
-        }
-    ]
+        "phpbenchmarks/benchmark-rest-data": "1.0.0"
+    }
 }

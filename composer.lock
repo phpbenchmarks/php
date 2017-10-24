@@ -4,47 +4,42 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6fe7d9e6953756316a40ccef41569457",
+    "content-hash": "aa2566f030d2f1af731297ada49aeeb0",
     "packages": [
         {
-            "name": "phpbenchmarks/rest-benchmark-type",
-            "version": "dev-master",
+            "name": "phpbenchmarks/benchmark-rest-data",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/phpbenchmarks/rest-benchmark-type.git",
-                "reference": "5b650a00bd89a56d1130618eda7eadeb88ed6ed3"
+                "url": "https://github.com/phpbenchmarks/benchmark-rest-data.git",
+                "reference": "f071a8ffcf9082f53ce1ee8b112aaacab2f32690"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpbenchmarks/rest-benchmark-type/zipball/5b650a00bd89a56d1130618eda7eadeb88ed6ed3",
-                "reference": "5b650a00bd89a56d1130618eda7eadeb88ed6ed3",
+                "url": "https://api.github.com/repos/phpbenchmarks/benchmark-rest-data/zipball/f071a8ffcf9082f53ce1ee8b112aaacab2f32690",
+                "reference": "f071a8ffcf9082f53ce1ee8b112aaacab2f32690",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.9"
+                "php": ">=5.4.0"
             },
             "type": "project",
             "autoload": {
                 "psr-4": {
-                    "PhpBenchmarksRestType\\": ""
+                    "PhpBenchmarksRestData\\": ""
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "proprietary"
             ],
-            "support": {
-                "source": "https://github.com/phpbenchmarks/rest-benchmark-type/tree/master",
-                "issues": "https://github.com/phpbenchmarks/rest-benchmark-type/issues"
-            },
-            "time": "2017-10-14T19:48:47+00:00"
+            "time": "2017-10-24T01:42:51+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "phpbenchmarks/rest-benchmark-type": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
