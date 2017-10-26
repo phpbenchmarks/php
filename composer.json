@@ -1,5 +1,5 @@
 {
-    "name": "phpbenchmarks/php-7-0-benchmark",
+    "name": "phpbenchmarks/php-7-0",
     "license": "proprietary",
     "type": "project",
     "autoload": {
