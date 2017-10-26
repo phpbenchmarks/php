@@ -1,0 +1,14 @@
+{
+    "name": "phpbenchmarks/php-5-6",
+    "license": "proprietary",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Php56Benchmark\\": ""
+        }
+    },
+    "require": {
+        "php": "^5.6",
+        "phpbenchmarks/benchmark-rest-data": "1.0.0"
+    }
+}
