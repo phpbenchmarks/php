@@ -44,7 +44,8 @@ function encodeType(CommentType $type)
 {
     return [
         'id' => $type->getId(),
-        'name' => $type->getName()
+        'name' => $type->getName(),
+        'translated' => TranslationService::getTranslation('translated.3000')
     ];
 }
 
