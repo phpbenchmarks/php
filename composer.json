@@ -1,0 +1,14 @@
+{
+    "name": "phpbenchmarks/php-7-1",
+    "license": "proprietary",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Php72Benchmark\\": ""
+        }
+    },
+    "require": {
+        "php": "^7.2",
+        "phpbenchmarks/benchmark-rest-data": "1.0.0"
+    }
+}
