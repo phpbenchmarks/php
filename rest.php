@@ -57,3 +57,5 @@ foreach (Service::getUsers() as $user) {
 }
 
 echo json_encode($data);
+
+// require phpbenchmarks stats.php here when needed
