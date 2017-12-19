@@ -16,12 +16,13 @@ It's benchmark source code for PHP 7.2.
 
 You can find how we benchmark it [here](http://www.phpbenchmarks.com/en/benchmark-protocol).
 
-## PHP 7.2
+## PHP 7.2.0: 145,360
 
-Benchmark | Tool | Score
---------- | ---- | -----
-[Hello World](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.2.html#benchmark-hello-world) | Apache Bench | In progress
-[News](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.2.html#benchmark-news) | Apache Bench | In progress
-[Rest API](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.2.html#benchmark-rest) | Apache Bench | In progress
+Benchmark | Request | Rq/sec | Score
+--------- | ------- | ------ | -----
+[Hello World](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.2.html#benchmark-hello-world) | 0.1 ms | 9,524 | 94,654
+[Rest API](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.2.html#benchmark-rest) | 0.3 ms | 3,356 | 50,076
+
+[See all benchmark results](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.2.html)
 
 Scores are too low ? Do not hesitate to create a pull request, and ask a new benchmark !
