@@ -16,12 +16,12 @@ It's benchmark source code for PHP 7.1.
 
 You can find how we benchmark it [here](http://www.phpbenchmarks.com/en/benchmark-protocol).
 
-## PHP 7.1.10: 145,532
-
-Benchmark | Request | Rq/sec | Score
---------- | ------- | ------ | -----
-[Hello World](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.1.html#benchmark-hello-world) | 0.1 ms | 10,159 | 95,484
-[Rest API](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.1.html#benchmark-rest) | 0.4 ms | 2,785 | 50,048
+Each benchmark type have their own branch :
+[Hello World](https://github.com/phpbenchmarks/php-7-1/tree/helloworld),
+[Blog](https://github.com/phpbenchmarks/php-7-1/tree/blog),
+[REST Api](https://github.com/phpbenchmarks/php-7-1/tree/restapi),
+[Small overload](https://github.com/phpbenchmarks/php-7-1/tree/smalloverload)
+and [Big overload](https://github.com/phpbenchmarks/php-7-1/tree/bigoverload).
 
 [See all benchmark results](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.1.html)
 
