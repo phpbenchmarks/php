@@ -16,12 +16,12 @@ It's benchmark source code for PHP 5.6.
 
 You can find how we benchmark it [here](http://www.phpbenchmarks.com/en/benchmark-protocol).
 
-## PHP 5.6.31: 108,285
-
-Benchmark | Request | Rq/sec | Score
---------- | ------- | ------ | -----
-[Hello World](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-5.6.html#benchmark-hello-world) | 0.1 ms | 10,076 | 94,988
-[Rest API](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-5.6.html#benchmark-rest) | 1.4 ms | 692 | 13,297
+Each benchmark type have their own branch :
+[Hello World](https://github.com/phpbenchmarks/php-5-6/tree/helloworld),
+[Blog](https://github.com/phpbenchmarks/php-5-6/tree/blog),
+[REST Api](https://github.com/phpbenchmarks/php-5-6/tree/restapi),
+[Small overload](https://github.com/phpbenchmarks/php-5-6/tree/smalloverload)
+and [Big overload](https://github.com/phpbenchmarks/php-5-6/tree/bigoverload).
 
 [See all benchmark results](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-5.6.html)
 
