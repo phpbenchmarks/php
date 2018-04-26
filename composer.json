@@ -1,13 +1,8 @@
 {
-    "name": "phpbenchmarks/php-7-0",
+    "name": "phpbenchmarks/php",
     "license": "proprietary",
     "type": "project",
-    "autoload": {
-        "psr-4": {
-            "Php70Benchmark\\": ""
-        }
-    },
     "require": {
-        "php": "^7.0"
+        "php": "7.0.*"
     }
 }
