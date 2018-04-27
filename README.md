@@ -6,23 +6,22 @@
 
 ## What is www.phpbenchmarks.com ?
 
-You will find lot of benchmarks for PHP frameworks, ORM and libs here.
+You will find lot of benchmarks for PHP frameworks and template engines.
 
-You can compare results between Apache Bench and Siege, PHP 5.6 to 7.2 and versions of your favorites PHP code.
+You can compare results between Apache Bench and Siege, and PHP 5.6 to 7.2.
 
 ## What is this repository ?
 
-It's benchmark source code for PHP 7.1.
+It's benchmark common code for PHP benchmarks.
 
-You can find how we benchmark it [here](http://www.phpbenchmarks.com/en/benchmark-protocol).
+Switch branch to select your PHP major version and benchmark you want to see.
 
-Each benchmark type have their own branch :
-[Hello World](https://github.com/phpbenchmarks/php-7-1/tree/helloworld),
-[Blog](https://github.com/phpbenchmarks/php-7-1/tree/blog),
-[REST Api](https://github.com/phpbenchmarks/php-7-1/tree/restapi),
-[Small overload](https://github.com/phpbenchmarks/php-7-1/tree/smalloverload)
-and [Big overload](https://github.com/phpbenchmarks/php-7-1/tree/bigoverload).
+See all PHP benchmarked versions on [phpbenchmarks/php](https://github.com/phpbenchmarks/php).
 
-[See all benchmark results](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.1.html)
+You can find how we benchmark on [phpbenchmarks.com](http://www.phpbenchmarks.com/en/benchmark-protocol.html).
+
+## Benchmarks
+
+You can find all PHP benchmarks results on [phpbenchmarks.com](http://www.phpbenchmarks.com/en/benchmark/php.html).
 
 Scores are too low ? Do not hesitate to create a pull request, and ask a new benchmark !
