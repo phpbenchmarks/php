@@ -1,5 +1,5 @@
 {
-    "name": "phpbenchmarks/php-7-1",
+    "name": "phpbenchmarks/php",
     "license": "proprietary",
     "type": "project",
     "autoload": {
@@ -8,7 +8,7 @@
         }
     },
     "require": {
-        "php": "^7.1",
+        "php": "7.1.*",
         "phpbenchmarks/benchmark-rest-data": "1.0.0"
     }
 }
