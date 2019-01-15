@@ -8,7 +8,7 @@
 
 You will find lot of benchmarks for PHP frameworks and template engines.
 
-You can compare results between Apache Bench and Siege, and PHP 5.6 to 7.2.
+You can compare results between Apache Bench and Siege, and PHP 5.6 to 7.3.
 
 ## What is this repository ?
 
