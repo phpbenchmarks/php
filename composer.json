@@ -1,0 +1,9 @@
+{
+    "name": "phpbenchmarks/php",
+    "license": "proprietary",
+    "type": "project",
+    "require": {
+        "php": "7.3.*",
+        "ext-json": "*"
+    }
+}
