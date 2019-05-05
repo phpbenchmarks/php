@@ -4,6 +4,7 @@
     "type": "project",
     "require": {
         "php": "7.3.*",
-        "ext-json": "*"
+        "ext-json": "*",
+        "phpbenchmarks/benchmark-json-serializer-hello-world": "1.0.0"
     }
 }
