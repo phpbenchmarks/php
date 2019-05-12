@@ -1,0 +1,15 @@
+{
+    "name": "phpbenchmarks/php",
+    "license": "proprietary",
+    "type": "project",
+    "require": {
+        "php": "7.3.*",
+        "ext-json": "*",
+        "phpbenchmarks/benchmark-json-serialization-big-overload": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Php73\\BenchmarkJsonSerializationBigOverload\\": "src/"
+        }
+    }
+}
