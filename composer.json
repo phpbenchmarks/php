@@ -1,0 +1,10 @@
+{
+    "name": "phpbenchmarks/php",
+    "license": "proprietary",
+    "type": "project",
+    "require": {
+        "php": "7.1.*",
+        "ext-json": "*",
+        "phpbenchmarks/benchmark-json-serialization-hello-world": "1.0.0"
+    }
+}
