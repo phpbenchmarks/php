@@ -1,0 +1,51 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "b8560270ed3aa39e110a8f3776d1b788",
+    "packages": [
+        {
+            "name": "phpbenchmarks/benchmark-json-serialization-small-overload",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpbenchmarks/benchmark-json-serialization-small-overload.git",
+                "reference": "d6ff6d49871391f47e81db8b3dbc30aa147af2de"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpbenchmarks/benchmark-json-serialization-small-overload/zipball/d6ff6d49871391f47e81db8b3dbc30aa147af2de",
+                "reference": "d6ff6d49871391f47e81db8b3dbc30aa147af2de",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "PhpBenchmarks\\BenchmarkJsonSerializationSmallOverload\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "description": "Data for serialization to a small JSON benchmark on phpbenchmarks.com.",
+            "time": "2019-05-12T11:41:00+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "7.0.*",
+        "ext-json": "*"
+    },
+    "platform-dev": []
+}
