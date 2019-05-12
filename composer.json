@@ -5,7 +5,7 @@
     "require": {
         "php": "7.3.*",
         "ext-json": "*",
-        "phpbenchmarks/benchmark-json-serialization-big-overload": "dev-master"
+        "phpbenchmarks/benchmark-json-serialization-big-overload": "1.0.0"
     },
     "autoload": {
         "psr-4": {
