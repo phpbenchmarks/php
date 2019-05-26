@@ -78,6 +78,15 @@ abstract class AbstractComponentConfiguration
 
     public static function getSourceCodeUrls(): array
     {
-        return [];
+        return [
+            'jsonSerialization' => 'https://github.com/phpbenchmarks/php/blob/php_7.3_json-serialization-big-overload/public/index.php#L15',
+            'integerSerialization' => 'https://github.com/phpbenchmarks/php/blob/php_7.3_json-serialization-big-overload/public/index.php#L15',
+            'floatSerialization' => 'https://github.com/phpbenchmarks/php/blob/php_7.3_json-serialization-big-overload/public/index.php#L15',
+            'stringSerialization' => 'https://github.com/phpbenchmarks/php/blob/php_7.3_json-serialization-big-overload/public/index.php#L15',
+            'booleanSerialization' => 'https://github.com/phpbenchmarks/php/blob/php_7.3_json-serialization-big-overload/public/index.php#L15',
+            'nullSerialization' => 'https://github.com/phpbenchmarks/php/blob/php_7.3_json-serialization-big-overload/public/index.php#L15',
+            'arraySerialization' => 'https://github.com/phpbenchmarks/php/blob/php_7.3_json-serialization-big-overload/public/index.php#L15',
+            'objectSerialization' => 'https://github.com/phpbenchmarks/php/blob/php_7.3_json-serialization-big-overload/public/index.php#L15'
+        ];
     }
 }
