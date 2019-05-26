@@ -92,7 +92,7 @@ abstract class AbstractComponentConfiguration
     public static function getSourceCodeUrls()
     {
         return [
-            'serialization' => 'https://github.com/phpbenchmarks/php/blob/php_5.6_json-serialization-hello-world/public/index.php'
+            'jsonSerialization' => 'https://github.com/phpbenchmarks/php/blob/php_5.6_json-serialization-hello-world/public/index.php#L10'
         ];
     }
 }
