@@ -28,7 +28,7 @@ abstract class AbstractComponentConfiguration
 
     public static function isPhp70Enabled(): bool
     {
-        return false;
+        return true;
     }
 
     public static function isPhp71Enabled(): bool
@@ -43,7 +43,7 @@ abstract class AbstractComponentConfiguration
 
     public static function isPhp73Enabled(): bool
     {
-        return true;
+        return false;
     }
 
     public static function getBenchmarkUrl(): string
@@ -78,6 +78,15 @@ abstract class AbstractComponentConfiguration
 
     public static function getSourceCodeUrls(): array
     {
-        return [];
+        return [
+            'jsonSerialization' => 'https://github.com/phpbenchmarks/php/blob/php_7.0_json-serialization-big-overload/public/index.php#L15',
+            'integerSerialization' => 'https://github.com/phpbenchmarks/php/blob/php_7.0_json-serialization-big-overload/public/index.php#L15',
+            'floatSerialization' => 'https://github.com/phpbenchmarks/php/blob/php_7.0_json-serialization-big-overload/public/index.php#L15',
+            'stringSerialization' => 'https://github.com/phpbenchmarks/php/blob/php_7.0_json-serialization-big-overload/public/index.php#L15',
+            'booleanSerialization' => 'https://github.com/phpbenchmarks/php/blob/php_7.0_json-serialization-big-overload/public/index.php#L15',
+            'nullSerialization' => 'https://github.com/phpbenchmarks/php/blob/php_7.0_json-serialization-big-overload/public/index.php#L15',
+            'arraySerialization' => 'https://github.com/phpbenchmarks/php/blob/php_7.0_json-serialization-big-overload/public/index.php#L15',
+            'objectSerialization' => 'https://github.com/phpbenchmarks/php/blob/php_7.0_json-serialization-big-overload/public/index.php#L15'
+        ];
     }
 }
