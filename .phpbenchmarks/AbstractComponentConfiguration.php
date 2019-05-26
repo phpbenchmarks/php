@@ -28,12 +28,12 @@ abstract class AbstractComponentConfiguration
 
     public static function isPhp70Enabled(): bool
     {
-        return false;
+        return true;
     }
 
     public static function isPhp71Enabled(): bool
     {
-        return true;
+        return false;
     }
 
     public static function isPhp72Enabled(): bool
@@ -79,7 +79,7 @@ abstract class AbstractComponentConfiguration
     public static function getSourceCodeUrls(): array
     {
         return [
-            'serialization' => 'https://github.com/phpbenchmarks/php/blob/php_7.0_json-serialization-hello-world/public/index.php'
+            'jsonSerialization' => 'https://github.com/phpbenchmarks/php/blob/php_7.0_json-serialization-hello-world/public/index.php'
         ];
     }
 }
