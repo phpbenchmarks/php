@@ -64,12 +64,12 @@ class Configuration
     public static function getSourceCodeUrls(): array
     {
         return [
-            'entryPoint' => 'https://github.com/phpbenchmarks/php/blob/7.5_hello-world/public/index.php',
-            'randomizeLanguageDispatchEvent' => 'https://github.com/phpbenchmarks/php/blob/7.5_hello-world/public/index.php',
-            'randomizeLanguageEventListener' => 'https://github.com/phpbenchmarks/php/blob/7.5_hello-world/public/index.php',
-            'translations' => 'https://github.com/phpbenchmarks/php/blob/7.5_hello-world/public/index.php',
-            'translate' => 'https://github.com/phpbenchmarks/php/blob/7.5_hello-world/public/index.php',
-            'serialize' => 'https://github.com/phpbenchmarks/php/blob/7.5_hello-world/public/index.php'
+            'entryPoint' => 'https://github.com/phpbenchmarks/php/blob/7.4_rest-api/public/index.php',
+            'randomizeLanguageDispatchEvent' => 'https://github.com/phpbenchmarks/php/blob/7.4_rest-api/public/index.php#L13',
+            'randomizeLanguageEventListener' => 'https://github.com/phpbenchmarks/php/blob/7.4_rest-api/src/Translation/TranslationService.php',
+            'translations' => 'https://github.com/phpbenchmarks/php/tree/7.4_rest-api/translations',
+            'translate' => 'https://github.com/phpbenchmarks/php/blob/7.4_rest-api/src/ArrayEncoder/UserArrayEncoder.php#L28',
+            'serialize' => 'https://github.com/phpbenchmarks/php/blob/7.4_rest-api/public/index.php#L18'
         ];
     }
 }
