@@ -1,0 +1,17 @@
+component:
+    id: 1
+benchmark:
+    type: 3
+    entryPoint: public/index.php
+    url: /
+sourceCode:
+    urls:
+        entryPoint: https://github.com/phpbenchmarks/php/tree/7.4.0_rest-api_0/public/index.php
+        randomizeLanguageDispatchEvent: https://github.com/phpbenchmarks/php/tree/7.4.0_rest-api_0/public/index.php#L13
+        randomizeLanguageEventListener: https://github.com/phpbenchmarks/php/tree/7.4.0_rest-api_0/src/Translation/TranslationService.php
+        translations: https://github.com/phpbenchmarks/php/tree/7.4_rest-api/translations
+        translate: https://github.com/phpbenchmarks/php/tree/7.4.0_rest-api_0/src/ArrayEncoder/UserArrayEncoder.php#L28
+        serialize: https://github.com/phpbenchmarks/php/tree/7.4.0_rest-api_0/public/index.php#L1
+coreDependency:
+    name: php
+    version: 7.4.0

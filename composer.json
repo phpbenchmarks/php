@@ -10,6 +10,7 @@
     "require": {
         "php": "7.4.0",
         "ext-json": "*",
+        "ext-zend-opcache": "*",
         "phpbenchmarks/benchmark-rest-data": "1.1.0"
     }
 }
