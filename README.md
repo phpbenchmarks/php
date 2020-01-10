@@ -4,24 +4,43 @@
   <a href="http://www.phpbenchmarks.com" target="_blank">www.phpbenchmarks.com</a>
 </p>
 
-## What is www.phpbenchmarks.com ?
+## What is www.phpbenchmarks.com?
 
-You will find lot of benchmarks for PHP frameworks and template engines.
+You will find a lot of benchmarks for PHP and PHP libraries on [phpbenchmarks.com](http://www.phpbenchmarks.com).
 
-You can compare results between Apache Bench and Siege, and PHP 5.6 to 7.2.
+Benchmarks results are available from PHP 5.6 to latest version.
 
-## What is this repository ?
+Our benchmarking protocol is available on [benchmarking protocol page](http://www.phpbenchmarks.com/en/documentation/benchmarking-protocol).
 
-It's benchmark common code for PHP benchmarks.
+## What is this repository?
 
-Switch branch to select your PHP major version and benchmark you want to see.
+It contains PHP benchmark code.
 
-See all PHP benchmarked versions on [phpbenchmarks/php](https://github.com/phpbenchmarks/php).
+Switch branch to select version and benchmark you want to see.
 
-You can find how we benchmark on [phpbenchmarks.com](http://www.phpbenchmarks.com/en/benchmark-protocol.html).
+You can find source code links into [Configuration::getSourceCodeUrls()](.phpbenchmarks/Configuration.php).
 
 ## Benchmarks
 
-You can find all PHP benchmarks results on [phpbenchmarks.com](http://www.phpbenchmarks.com/en/benchmark/php.html).
+You can find PHP 7.1 benchmarks results on
+[benchmarks results page](http://www.phpbenchmarks.com/en/benchmark/php/7.1).
 
-Scores are too low ? Do not hesitate to create a pull request, and ask a new benchmark !
+See all PHP benchmarked versions on [select version page](http://www.phpbenchmarks.com/en/benchmark/php/version).
+
+## Community
+
+Go to [community page](http://www.phpbenchmarks.com/en/community) to see the Hall of fame, or download the benchmark kit to add your code!
+
+## How version works?
+
+We do not follow semantic version for this repository.
+
+Here is an explanation about our versioning system:
+
+`X.Y.Z_benchmark-slug_W`
+
+* `X`: PHP major version.
+* `Y`: PHP minor version.
+* `Z`: PHP patch version.
+* `benchmark-slug`: slug of the benchmark, list available on [documentation page](http://www.phpbenchmarks.com/en/documentation).
+* `W`: benchmark version
