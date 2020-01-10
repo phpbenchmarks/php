@@ -1,0 +1,12 @@
+component:
+    id: 1
+benchmark:
+    type: 1
+    relativeUrl: /
+sourceCode:
+    entryPoint: public/index.php
+    urls:
+        entryPoint: 'https://github.com/phpbenchmarks/php/blob/5.6.40_hello-world_0/public/index.php'
+coreDependency:
+    name: php
+    version: 5.6.40
