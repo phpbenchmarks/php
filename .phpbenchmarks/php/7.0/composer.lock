@@ -1,23 +1,23 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "672c16162678c7bb194a7f902a36a9a6",
+    "content-hash": "bfd7893e7871c94f1583a57afb86ce13",
     "packages": [
         {
             "name": "phpbenchmarks/benchmark-rest-data",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpbenchmarks/benchmark-rest-data.git",
-                "reference": "f071a8ffcf9082f53ce1ee8b112aaacab2f32690"
+                "reference": "768b07fb87fd771a801865fd38ebe7438282195b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpbenchmarks/benchmark-rest-data/zipball/f071a8ffcf9082f53ce1ee8b112aaacab2f32690",
-                "reference": "f071a8ffcf9082f53ce1ee8b112aaacab2f32690",
+                "url": "https://api.github.com/repos/phpbenchmarks/benchmark-rest-data/zipball/768b07fb87fd771a801865fd38ebe7438282195b",
+                "reference": "768b07fb87fd771a801865fd38ebe7438282195b",
                 "shasum": ""
             },
             "require": {
@@ -33,7 +33,8 @@
             "license": [
                 "proprietary"
             ],
-            "time": "2017-10-24T01:42:51+00:00"
+            "description": "Data for REST API benchmark on phpbenchmarks.com",
+            "time": "2019-01-28T15:24:43+00:00"
         }
     ],
     "packages-dev": [],
@@ -43,7 +44,8 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.0"
+        "php": "7.0.33",
+        "ext-json": "*"
     },
     "platform-dev": []
 }
