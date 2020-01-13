@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-use Php71Benchmark\Translation\TranslationService;
+use Phpbenchmarks\Translation\TranslationService;
 use PhpBenchmarksRestData\{
     Comment,
     CommentType,
@@ -10,7 +10,7 @@ use PhpBenchmarksRestData\{
     User
 };
 
-require('vendor/autoload.php');
+require(__DIR__ . '/../vendor/autoload.php');
 
 function encodeUser(User $user): array
 {
@@ -56,5 +56,3 @@ foreach (Service::getUsers() as $user) {
 }
 
 echo json_encode($data);
-
-// require phpbenchmarks stats.php here when needed
