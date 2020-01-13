@@ -4,11 +4,12 @@
     "type": "project",
     "autoload": {
         "psr-4": {
-            "Php56Benchmark\\": ""
+            "Phpbenchmarks\\": ""
         }
     },
     "require": {
-        "php": "5.6.*",
-        "phpbenchmarks/benchmark-rest-data": "1.0.0"
+        "php": "5.6.40",
+        "ext-json": "*",
+        "phpbenchmarks/benchmark-rest-data": "1.1.0"
     }
 }
