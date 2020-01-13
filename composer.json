@@ -4,11 +4,12 @@
     "type": "project",
     "autoload": {
         "psr-4": {
-            "Php73Benchmark\\": ""
+            "Phpbenchmarks\\": "src/"
         }
     },
     "require": {
-        "php": "7.3.*",
-        "phpbenchmarks/benchmark-rest-data": "1.0.0"
+        "php": "7.3.13",
+        "ext-json": "*",
+        "phpbenchmarks/benchmark-rest-data": "1.1.0"
     }
 }
