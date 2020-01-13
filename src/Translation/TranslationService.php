@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Php72Benchmark\Translation;
+namespace Phpbenchmarks\Translation;
 
 class TranslationService
 {
@@ -12,11 +12,12 @@ class TranslationService
     {
         $locales = ['fr_FR', 'en_GB', 'aa_BB'];
         $locale = $locales[rand(0, 2)];
+        $translationsDir = __DIR__ . '/../../translations';
 
-        if (file_exists(__DIR__ . '/phpbenchmarks.' . $locale . '.php')) {
-            static::$translations = require(__DIR__ . '/phpbenchmarks.' . $locale . '.php');
+        if (file_exists($translationsDir . '/phpbenchmarks.' . $locale . '.php')) {
+            static::$translations = require($translationsDir . '/phpbenchmarks.' . $locale . '.php');
         } else {
-            static::$translations = require(__DIR__ . '/phpbenchmarks.en.php');
+            static::$translations = require($translationsDir . '/phpbenchmarks.en.php');
         }
     }
 
