@@ -3,14 +3,14 @@
 // This code has to fill OPCache, so we will not use loop and write duplicated code
 
 // Simulate an extends
-include(__DIR__ . '/../overload/layout_start.php');
+include(__DIR__ . '/../templates/layout/layout_start.php');
 ?>
         <?php
         // -------------------------------------------------------------------------------------------------------------
         // Create 100 custom functions and call them all
         // -------------------------------------------------------------------------------------------------------------
 
-        require __DIR__ . '/../overload/functions.php';
+        require __DIR__ . '/../src/functions.php';
         ?>
 
         <div class="row">
@@ -434,7 +434,7 @@ include(__DIR__ . '/../overload/layout_start.php');
         // Create 100 macros and call them all
         // -------------------------------------------------------------------------------------------------------------
 
-        require __DIR__ . '/../overload/macros.php';
+        require __DIR__ . '/../src/macros.php';
         ?>
 
         <div class="row">
@@ -9324,252 +9324,252 @@ include(__DIR__ . '/../overload/layout_start.php');
                     <tbody>
                         <?php
                         $template1 = '[#1] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template1.php');
+                        include(__DIR__ . '/../templates/template/template1.php');
                         unset($template1);
                         ?>
                         <?php
                         $template2 = '[#2] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template2.php');
+                        include(__DIR__ . '/../templates/template/template2.php');
                         unset($template2);
                         ?>
                         <?php
                         $template3 = '[#3] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template3.php');
+                        include(__DIR__ . '/../templates/template/template3.php');
                         unset($template3);
                         ?>
                         <?php
                         $template4 = '[#4] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template4.php');
+                        include(__DIR__ . '/../templates/template/template4.php');
                         unset($template4);
                         ?>
                         <?php
                         $template5 = '[#5] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template5.php');
+                        include(__DIR__ . '/../templates/template/template5.php');
                         unset($template5);
                         ?>
                         <?php
                         $template6 = '[#6] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template6.php');
+                        include(__DIR__ . '/../templates/template/template6.php');
                         unset($template6);
                         ?>
                         <?php
                         $template7 = '[#7] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template7.php');
+                        include(__DIR__ . '/../templates/template/template7.php');
                         unset($template7);
                         ?>
                         <?php
                         $template8 = '[#8] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template8.php');
+                        include(__DIR__ . '/../templates/template/template8.php');
                         unset($template8);
                         ?>
                         <?php
                         $template9 = '[#9] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template9.php');
+                        include(__DIR__ . '/../templates/template/template9.php');
                         unset($template9);
                         ?>
                         <?php
                         $template10 = '[#10] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template10.php');
+                        include(__DIR__ . '/../templates/template/template10.php');
                         unset($template10);
                         ?>
                         <?php
                         $template11 = '[#11] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template11.php');
+                        include(__DIR__ . '/../templates/template/template11.php');
                         unset($template11);
                         ?>
                         <?php
                         $template12 = '[#12] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template12.php');
+                        include(__DIR__ . '/../templates/template/template12.php');
                         unset($template12);
                         ?>
                         <?php
                         $template13 = '[#13] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template13.php');
+                        include(__DIR__ . '/../templates/template/template13.php');
                         unset($template13);
                         ?>
                         <?php
                         $template14 = '[#14] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template14.php');
+                        include(__DIR__ . '/../templates/template/template14.php');
                         unset($template14);
                         ?>
                         <?php
                         $template15 = '[#15] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template15.php');
+                        include(__DIR__ . '/../templates/template/template15.php');
                         unset($template15);
                         ?>
                         <?php
                         $template16 = '[#16] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template16.php');
+                        include(__DIR__ . '/../templates/template/template16.php');
                         unset($template16);
                         ?>
                         <?php
                         $template17 = '[#17] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template17.php');
+                        include(__DIR__ . '/../templates/template/template17.php');
                         unset($template17);
                         ?>
                         <?php
                         $template18 = '[#18] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template18.php');
+                        include(__DIR__ . '/../templates/template/template18.php');
                         unset($template18);
                         ?>
                         <?php
                         $template19 = '[#19] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template19.php');
+                        include(__DIR__ . '/../templates/template/template19.php');
                         unset($template19);
                         ?>
                         <?php
                         $template20 = '[#20] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template20.php');
+                        include(__DIR__ . '/../templates/template/template20.php');
                         unset($template20);
                         ?>
                         <?php
                         $template21 = '[#21] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template21.php');
+                        include(__DIR__ . '/../templates/template/template21.php');
                         unset($template21);
                         ?>
                         <?php
                         $template22 = '[#22] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template22.php');
+                        include(__DIR__ . '/../templates/template/template22.php');
                         unset($template22);
                         ?>
                         <?php
                         $template23 = '[#23] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template23.php');
+                        include(__DIR__ . '/../templates/template/template23.php');
                         unset($template23);
                         ?>
                         <?php
                         $template24 = '[#24] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template24.php');
+                        include(__DIR__ . '/../templates/template/template24.php');
                         unset($template24);
                         ?>
                         <?php
                         $template25 = '[#25] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template25.php');
+                        include(__DIR__ . '/../templates/template/template25.php');
                         unset($template25);
                         ?>
                         <?php
                         $template26 = '[#26] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template26.php');
+                        include(__DIR__ . '/../templates/template/template26.php');
                         unset($template26);
                         ?>
                         <?php
                         $template27 = '[#27] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template27.php');
+                        include(__DIR__ . '/../templates/template/template27.php');
                         unset($template27);
                         ?>
                         <?php
                         $template28 = '[#28] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template28.php');
+                        include(__DIR__ . '/../templates/template/template28.php');
                         unset($template28);
                         ?>
                         <?php
                         $template29 = '[#29] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template29.php');
+                        include(__DIR__ . '/../templates/template/template29.php');
                         unset($template29);
                         ?>
                         <?php
                         $template30 = '[#30] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template30.php');
+                        include(__DIR__ . '/../templates/template/template30.php');
                         unset($template30);
                         ?>
                         <?php
                         $template31 = '[#31] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template31.php');
+                        include(__DIR__ . '/../templates/template/template31.php');
                         unset($template31);
                         ?>
                         <?php
                         $template32 = '[#32] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template32.php');
+                        include(__DIR__ . '/../templates/template/template32.php');
                         unset($template32);
                         ?>
                         <?php
                         $template33 = '[#33] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template33.php');
+                        include(__DIR__ . '/../templates/template/template33.php');
                         unset($template33);
                         ?>
                         <?php
                         $template34 = '[#34] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template34.php');
+                        include(__DIR__ . '/../templates/template/template34.php');
                         unset($template34);
                         ?>
                         <?php
                         $template35 = '[#35] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template35.php');
+                        include(__DIR__ . '/../templates/template/template35.php');
                         unset($template35);
                         ?>
                         <?php
                         $template36 = '[#36] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template36.php');
+                        include(__DIR__ . '/../templates/template/template36.php');
                         unset($template36);
                         ?>
                         <?php
                         $template37 = '[#37] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template37.php');
+                        include(__DIR__ . '/../templates/template/template37.php');
                         unset($template37);
                         ?>
                         <?php
                         $template38 = '[#38] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template38.php');
+                        include(__DIR__ . '/../templates/template/template38.php');
                         unset($template38);
                         ?>
                         <?php
                         $template39 = '[#39] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template39.php');
+                        include(__DIR__ . '/../templates/template/template39.php');
                         unset($template39);
                         ?>
                         <?php
                         $template40 = '[#40] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template40.php');
+                        include(__DIR__ . '/../templates/template/template40.php');
                         unset($template40);
                         ?>
                         <?php
                         $template41 = '[#41] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template41.php');
+                        include(__DIR__ . '/../templates/template/template41.php');
                         unset($template41);
                         ?>
                         <?php
                         $template42 = '[#42] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template42.php');
+                        include(__DIR__ . '/../templates/template/template42.php');
                         unset($template42);
                         ?>
                         <?php
                         $template43 = '[#43] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template43.php');
+                        include(__DIR__ . '/../templates/template/template43.php');
                         unset($template43);
                         ?>
                         <?php
                         $template44 = '[#44] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template44.php');
+                        include(__DIR__ . '/../templates/template/template44.php');
                         unset($template44);
                         ?>
                         <?php
                         $template45 = '[#45] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template45.php');
+                        include(__DIR__ . '/../templates/template/template45.php');
                         unset($template45);
                         ?>
                         <?php
                         $template46 = '[#46] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template46.php');
+                        include(__DIR__ . '/../templates/template/template46.php');
                         unset($template46);
                         ?>
                         <?php
                         $template47 = '[#47] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template47.php');
+                        include(__DIR__ . '/../templates/template/template47.php');
                         unset($template47);
                         ?>
                         <?php
                         $template48 = '[#48] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template48.php');
+                        include(__DIR__ . '/../templates/template/template48.php');
                         unset($template48);
                         ?>
                         <?php
                         $template49 = '[#49] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template49.php');
+                        include(__DIR__ . '/../templates/template/template49.php');
                         unset($template49);
                         ?>
                         <?php
                         $template50 = '[#50] PHP Benchmarks';
-                        include(__DIR__ . '/../overload/templates/template50.php');
+                        include(__DIR__ . '/../templates/template/template50.php');
                         unset($template50);
                         ?>
                     </tbody>
@@ -9579,7 +9579,5 @@ include(__DIR__ . '/../overload/layout_start.php');
 
 <?php
 // Simulate end of extends
-include(__DIR__ . '/../overload/layout_end.php');
-
-// require phpbenchmarks stats.php here when needed
+include(__DIR__ . '/../templates/layout/layout_end.php');
 ?>
