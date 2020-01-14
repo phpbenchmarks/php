@@ -12,7 +12,7 @@
         // Create 50 blocks and fill them all
         // -------------------------------------------------------------------------------------------------------------
 
-        require __DIR__ . '/../overload/blocks.php';
+        require __DIR__ . '/../../src/blocks.php';
         ?>
         <div class="row">
             <div class="col-md-12">
