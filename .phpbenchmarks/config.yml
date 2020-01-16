@@ -1,0 +1,23 @@
+component:
+    id: 1
+benchmark:
+    type: 5
+    relativeUrl: /
+sourceCode:
+    entryPoint: public/index.php
+    urls:
+        template: 'https://github.com/phpbenchmarks/php/tree/5.6.40_templating-big-overload_0/public/index.php'
+        templatingLayout: 'https://github.com/phpbenchmarks/php/tree/5.6.40_templating-big-overload_0/public/index.php#L6'
+        templatingBlocks: 'https://github.com/phpbenchmarks/php/tree/5.6.40_templating-big-overload_0/templates/layout/layout_start.php#L10'
+        templatingFunctions: 'https://github.com/phpbenchmarks/php/tree/5.6.40_templating-big-overload_0/public/index.php#L8'
+        templatingMacros: 'https://github.com/phpbenchmarks/php/tree/5.6.40_templating-big-overload_0/public/index.php#L4032'
+        templatingEscapeStringHtml: 'https://github.com/phpbenchmarks/php/tree/5.6.40_templating-big-overload_0/public/index.php#8056'
+        templatingEscapeStringJs: 'https://github.com/phpbenchmarks/php/tree/5.6.40_templating-big-overload_0/public/index.php#28077'
+        templatingVariables: 'https://github.com/phpbenchmarks/php/tree/5.6.40_templating-big-overload_0/public/index.php#L5933'
+        templatingOutputRaw: 'https://github.com/phpbenchmarks/php/tree/5.6.40_templating-big-overload_0/public/index.php#L58133'
+        templatingOutputUnknownVariables: 'https://github.com/phpbenchmarks/php/tree/5.6.40_templating-big-overload_0/public/index.php#L67155'
+        templatingOutputMethodCalls: 'https://github.com/phpbenchmarks/php/tree/5.6.40_templating-big-overload_0/public/index.php#L71177'
+        templatingIncludeTemplates: 'https://github.com/phpbenchmarks/php/tree/5.6.40_templating-big-overload_0/public/index.php#L91208'
+coreDependency:
+    name: php
+    version: 5.6.40
