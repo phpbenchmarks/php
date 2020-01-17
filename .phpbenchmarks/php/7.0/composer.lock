@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c9c0688425838e274f9eb049ffb032ce",
+    "content-hash": "3c5cd246f2072de5af262b706b59a9db",
     "packages": [
         {
             "name": "phpbenchmarks/benchmark-json-serialization-hello-world",
@@ -44,7 +44,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "7.0.*",
+        "php": "7.0.33",
         "ext-json": "*"
     },
     "platform-dev": []
