@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-use Php73\BenchmarkJsonSerializationSmallOverload\ObjectToSerializeFactory\JsonSerializableFactory;
+use App\ObjectToSerializeFactory\JsonSerializableFactory;
 use PhpBenchmarks\BenchmarkJsonSerializationSmallOverload\BenchmarkService;
 
 require __DIR__ . '/../vendor/autoload.php';
