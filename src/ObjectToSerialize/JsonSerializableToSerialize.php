@@ -1,6 +1,6 @@
 <?php
 
-namespace Php73\BenchmarkJsonSerializationSmallOverload\ObjectToSerialize;
+namespace App\ObjectToSerialize;
 
 use PhpBenchmarks\BenchmarkJsonSerializationSmallOverload\ObjectToSerialize\ObjectToSerialize;
 
