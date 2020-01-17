@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "58526dedb468f297ee9b16368da335ca",
+    "content-hash": "b91b022c17ff31723c5ee7963897db14",
     "packages": [
         {
             "name": "phpbenchmarks/benchmark-json-serialization-big-overload",
@@ -44,7 +44,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "7.1.*",
+        "php": "7.1.33",
         "ext-json": "*"
     },
     "platform-dev": []
