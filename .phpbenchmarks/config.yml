@@ -1,0 +1,19 @@
+component:
+    id: 1
+benchmark:
+    type: 8
+    relativeUrl: /
+sourceCode:
+    entryPoint: public/index.php
+    urls:
+        jsonSerialization: 'https://github.com/phpbenchmarks/php/tree/7.3.13_json-serialization-big-overload_0/public/index.php#L15'
+        integerSerialization: 'https://github.com/phpbenchmarks/php/tree/7.3.13_json-serialization-big-overload_0/public/index.php#L15'
+        floatSerialization: 'https://github.com/phpbenchmarks/php/tree/7.3.13_json-serialization-big-overload_0/public/index.php#L15'
+        stringSerialization: 'https://github.com/phpbenchmarks/php/tree/7.3.13_json-serialization-big-overload_0/public/index.php#L15'
+        booleanSerialization: 'https://github.com/phpbenchmarks/php/tree/7.3.13_json-serialization-big-overload_0/public/index.php#L15'
+        nullSerialization: 'https://github.com/phpbenchmarks/php/tree/7.3.13_json-serialization-big-overload_0/public/index.php#L15'
+        arraySerialization: 'https://github.com/phpbenchmarks/php/tree/7.3.13_json-serialization-big-overload_0/public/index.php#L15'
+        objectSerialization: 'https://github.com/phpbenchmarks/php/tree/7.3.13_json-serialization-big-overload_0/public/index.php#L15'
+coreDependency:
+    name: php
+    version: 7.3.13
