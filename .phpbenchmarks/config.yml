@@ -1,0 +1,12 @@
+component:
+    id: 1
+benchmark:
+    type: 6
+    relativeUrl: /
+sourceCode:
+    entryPoint: public/index.php
+    urls:
+        jsonSerialization: 'https://github.com/phpbenchmarks/php/tree/7.1.33_json-serialization-hello-world_0/public/index.php#L12'
+coreDependency:
+    name: php
+    version: 7.1.33
