@@ -1,6 +1,6 @@
 <?php
 
-use Php73\BenchmarkJsonSerializationBigOverload\ObjectToSerializeFactory\JsonSerializableFactory;
+use App\ObjectToSerializeFactory\JsonSerializableFactory;
 use PhpBenchmarks\BenchmarkJsonSerializationBigOverload\BenchmarkService;
 
 require __DIR__ . '/../vendor/autoload.php';
@@ -12,5 +12,3 @@ if ($benchmarkService->isWriteToResponseBody()) {
 } else {
     json_encode($benchmarkService->getDataToSerialize());
 }
-
-// require phpbenchmarks stats.php here when needed
