@@ -1,8 +1,8 @@
 <?php
 
-namespace Php73\BenchmarkJsonSerializationSmallOverload\ObjectToSerializeFactory;
+namespace App\ObjectToSerializeFactory;
 
-use Php73\BenchmarkJsonSerializationSmallOverload\ObjectToSerialize\JsonSerializableToSerialize;
+use App\ObjectToSerialize\JsonSerializableToSerialize;
 use PhpBenchmarks\BenchmarkJsonSerializationSmallOverload\ObjectToSerialize\ObjectToSerializeInterface;
 use PhpBenchmarks\BenchmarkJsonSerializationSmallOverload\ObjectToSerializeFactory\ObjectToSerializeFactoryInterface;
 
