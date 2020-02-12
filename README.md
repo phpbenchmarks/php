@@ -18,8 +18,6 @@ It contains PHP benchmark code.
 
 Switch branch to select version and benchmark you want to see.
 
-You can find source code links into [Configuration::getSourceCodeUrls()](.phpbenchmarks/Configuration.php).
-
 ## Benchmarks
 
 You can find PHP 7.3 benchmarks results on
