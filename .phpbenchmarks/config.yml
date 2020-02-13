@@ -6,12 +6,12 @@ benchmark:
 sourceCode:
     entryPoint: public/index.php
     urls:
-        entryPoint: 'https://github.com/phpbenchmarks/php/tree/7.2.26_rest-api_0/public/index.php'
-        randomizeLanguageDispatchEvent: 'https://github.com/phpbenchmarks/php/tree/7.2.26_rest-api_0/public/index.php#L51'
-        randomizeLanguageEventListener: 'https://github.com/phpbenchmarks/php/tree/7.2.26_rest-api_0/src/Translation/TranslationService.php#L11'
-        translations: 'https://github.com/phpbenchmarks/php/tree/7.2.26_rest-api_0/translations/phpbenchmarks.en_GB.php'
-        translate: 'https://github.com/phpbenchmarks/php/tree/7.2.26_rest-api_0/public/index.php#L21'
-        serialize: 'https://github.com/phpbenchmarks/php/tree/7.2.26_rest-api_0/public/index.php#L58'
+        entryPoint: 'https://github.com/phpbenchmarks/php/tree/7.2.27_rest-api_0/public/index.php'
+        randomizeLanguageDispatchEvent: 'https://github.com/phpbenchmarks/php/tree/7.2.27_rest-api_0/public/index.php#L51'
+        randomizeLanguageEventListener: 'https://github.com/phpbenchmarks/php/tree/7.2.27_rest-api_0/src/Translation/TranslationService.php#L11'
+        translations: 'https://github.com/phpbenchmarks/php/tree/7.2.27_rest-api_0/translations/phpbenchmarks.en_GB.php'
+        translate: 'https://github.com/phpbenchmarks/php/tree/7.2.27_rest-api_0/public/index.php#L21'
+        serialize: 'https://github.com/phpbenchmarks/php/tree/7.2.27_rest-api_0/public/index.php#L58'
 coreDependency:
     name: php
-    version: 7.2.26
+    version: 7.2.27

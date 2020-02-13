@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "afc16651ec16df6d7958acbb1f5c00f1",
+    "content-hash": "00724dd5af02717b12b98250639b433d",
     "packages": [
         {
             "name": "phpbenchmarks/benchmark-rest-data",
@@ -44,7 +44,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "7.2.26",
+        "php": "7.2.27",
         "ext-json": "*"
     },
     "platform-dev": []
