@@ -6,7 +6,7 @@ benchmark:
 sourceCode:
     entryPoint: public/index.php
     urls:
-        jsonSerialization: 'https://github.com/phpbenchmarks/php/tree/7.2.26_json-serialization-hello-world_0/public/index.php#L12'
+        jsonSerialization: 'https://github.com/phpbenchmarks/php/tree/7.2.27_json-serialization-hello-world_0/public/index.php#L12'
 coreDependency:
     name: php
-    version: 7.2.26
+    version: 7.2.27
