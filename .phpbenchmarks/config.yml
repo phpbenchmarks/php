@@ -6,7 +6,7 @@ benchmark:
 sourceCode:
     entryPoint: public/index.php
     urls:
-        entryPoint: 'https://github.com/phpbenchmarks/php/blob/7.4.1_hello-world_1/public/index.php'
+        entryPoint: 'https://github.com/phpbenchmarks/php/blob/7.4.2_hello-world_0/public/index.php'
 coreDependency:
     name: php
-    version: 7.4.1
+    version: 7.4.2
