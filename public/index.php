@@ -14,5 +14,3 @@ if ($benchmarkService->isWriteToResponseBody()) {
 } else {
     json_encode($benchmarkService->getDataToSerialize());
 }
-
-// require phpbenchmarks stats.php here when needed
