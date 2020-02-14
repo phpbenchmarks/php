@@ -3,7 +3,7 @@
     "license": "proprietary",
     "type": "project",
     "require": {
-        "php": "7.3.13",
+        "php": "7.3.14",
         "ext-json": "*",
         "phpbenchmarks/benchmark-json-serialization-small-overload": "1.0.0"
     },
