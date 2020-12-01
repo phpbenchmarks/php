@@ -1,0 +1,21 @@
+version: '2.1'
+
+jobs:
+    ValidateBenchmark:
+        docker:
+            - image: phpbenchmarks/benchmark-kit:4
+        working_directory: /var/www/benchmark
+        steps:
+            - checkout
+            - run:
+                name: entrypoint
+                command: entrypoint --nginx-as-service
+            - run:
+                name: "validate:benchmark"
+                command: "phpbenchkit validate:benchmark -vvv"
+
+workflows:
+    version: '2.1'
+    BenchmarkKit:
+        jobs:
+            - ValidateBenchmark
