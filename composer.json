@@ -1,0 +1,9 @@
+{
+    "name": "phpbenchmarks/php",
+    "license": "proprietary",
+    "type": "project",
+    "require": {
+        "php": "8.0.0",
+        "ext-zend-opcache": "*"
+    }
+}
