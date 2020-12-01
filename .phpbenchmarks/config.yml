@@ -1,0 +1,12 @@
+component:
+    slug: php
+benchmark:
+    type: json-serialization-hello-world
+    relativeUrl: /
+sourceCode:
+    entryPoint: public/index.php
+    urls:
+        jsonSerialization: https://github.com/phpbenchmarks/php/tree/8.0.0_json-serialization-hello-world_0/public/index.php#L12
+coreDependency:
+    name: php
+    version: 8.0.0
