@@ -1,0 +1,52 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "0bbb78a9aa727ea6ac0bec0c0418f096",
+    "packages": [
+        {
+            "name": "phpbenchmarks/benchmark-rest-data",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpbenchmarks/benchmark-rest-data.git",
+                "reference": "768b07fb87fd771a801865fd38ebe7438282195b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpbenchmarks/benchmark-rest-data/zipball/768b07fb87fd771a801865fd38ebe7438282195b",
+                "reference": "768b07fb87fd771a801865fd38ebe7438282195b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "PhpBenchmarksRestData\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "description": "Data for REST API benchmark on phpbenchmarks.com",
+            "time": "2019-01-28T15:24:43+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "8.1.0",
+        "ext-json": "*"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}
